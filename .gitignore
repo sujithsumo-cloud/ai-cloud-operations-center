@@ -1,0 +1,35 @@
+
+# Terraform working files
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Local Terraform variables may contain sensitive values
+terraform.tfvars
+terraform.tfvars.json
+
+# Credentials and environment files
+.env
+.env.*
+!.env.example
+.aws/
+*.pem
+*.key
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
